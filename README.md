@@ -1,20 +1,70 @@
-# Ola-Cabs-Ride-Analytics-Dashboard
+# 🚕 Ola-Cabs-Ride-Analytics-Dashboard
 
-Analyzed over 95,000+ ride bookings across multiple locations using Power BI, focusing on booking behavior, cancellations, ratings, payment preferences, and ride performance.
+This project presents a detailed analysis of OLA Cabs booking data using Power BI, SQL, and Excel — with AI-assisted support during development. It explores ride behavior, cancellations, vehicle performance, customer satisfaction, and payment trends using interactive visuals and SQL-powered KPIs.
 
-Designed 10+ custom SQL views to calculate core KPIs such as ride success rate, average distance by vehicle type, top pickup zones, cancellation reasons, and customer satisfaction metrics.
+---
 
-Built an interactive Power BI dashboard featuring real-time slicers, status-based drilldowns, dynamic DAX measures, and geo-location insights to visualize booking trends and operational efficiency.
+## 📁 Project Files
 
-Cleaned and prepared raw Excel data (60+ columns) by handling nulls, standardizing booking statuses, formatting dates/times, and transforming string-based fields for analytical use.
+- 📊 **Power BI File**: `Ola Cabs B.pbix`  
+- 🧮 **SQL Script**: `OLA.sql` (with 10 analytical views)  
+- 📄 **Excel Data**: `OLA Cab.xlsx` (1 lakh+ rows, 60+ columns)
 
-Identified that UPI accounted for 47%+ of all transactions, with the Prime Sedan segment achieving the highest average customer rating of 4.3/5 and the longest average ride distance.
+---
 
-Discovered that 20%+ cancellations were due to driver-side personal or car issues, helping to suggest actionable insights for service quality improvement.
+## 🔍 Key Highlights
 
-Enabled faster business decisions through location-wise performance mapping and customer preference analytics—helping improve ride allocation, incentive plans, and driver deployment.
+- Analyzed over **95,000+ ride bookings** from different pickup/drop locations using filters like booking status, payment method, and ride type.
+- Designed **10+ SQL views** to compute key business metrics such as:
+  - Ride success rate
+  - Average distance per vehicle type
+  - Customer satisfaction by segment
+  - Cancellation insights (by driver & customer)
+- Built a **dynamic Power BI dashboard** with:
+  - Custom slicers
+  - Drill-down capability
+  - Real-time metrics
+  - Geo-location visualizations
 
-Delivered a polished .pbix dashboard file, backed by SQL automation and ready for weekly operational reporting.
+---
 
-✅ Tools Used:
-Power BI, PostgreSQL (SQL), Microsoft Excel
+## 🧠 Use of AI in Development
+
+While the core logic and dashboard design were created manually, I actively used **AI (ChatGPT)** to enhance productivity, accuracy, and learning:
+
+- 📌 **SQL Query Assistance**: Resolved syntax errors, optimized joins, and handled aggregation logic using AI guidance.
+- 🧠 **DAX Formula Support**: Received AI-based suggestions for measures like average rating, ride distance segmentation, and status-based filters.
+- ⚡ **Debugging**: Reduced time spent on fixing logic issues and quickly understood best practices in data modeling.
+  
+This AI support helped me focus more on **business logic and visualization** rather than syntax hurdles.
+
+---
+
+## 📊 Insights Derived
+
+- **UPI** was the most used payment method, accounting for over **47%** of total bookings.
+- **Prime Sedan** vehicles had the highest average customer rating (**4.3/5**) and the longest average ride distance.
+- Over **20% of cancelled rides** were due to personal or car-related issues from the driver’s end.
+- High-demand zones like Sitabuldi, Nagpur Railway Station, and Dhantoli emerged as booking hotspots.
+
+---
+
+## 💡 Business Impact
+
+- Helped identify **operational inefficiencies** and **customer behavior trends**.
+- Enabled **better ride allocation**, **driver deployment**, and **incentive planning**.
+- The dashboard is ready for **weekly reporting** and can be scaled for city-wise comparisons.
+
+---
+
+## ✅ Tools & Technologies Used
+
+- **Power BI** – for dashboard creation and DAX-based calculations  
+- **PostgreSQL (SQL)** – for data querying and modeling  
+- **Microsoft Excel** – for raw data cleaning and preparation  
+- **ChatGPT (AI)** – for query troubleshooting, logic building, and learning support  
+
+---
+
+
+
