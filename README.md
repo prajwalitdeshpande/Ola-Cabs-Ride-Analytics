@@ -1,4 +1,4 @@
-# 🚕 Ola-Cabs-Ride-Analytics-Dashboard
+# 🚕 Ola-Cabs-Ride-Analytics
 
 This project presents a detailed analysis of OLA Cabs booking data using Power BI, SQL, and Excel — with AI-assisted support during development. It explores ride behavior, cancellations, vehicle performance, customer satisfaction, and payment trends using interactive visuals and SQL-powered KPIs.
 
