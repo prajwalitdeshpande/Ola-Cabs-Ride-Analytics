@@ -135,6 +135,6 @@ SELECT * FROM vehicle_type_customer_rating;
 --9. Calculate the total booking value of rides completed successfully.
 SELECT * FROM total_successful_value;
 
---10. List all incomplete rides along with the reason.
+---10. List all incomplete rides along with the reason.
 SELECT * FROM incomplete_rides_reason;
 
